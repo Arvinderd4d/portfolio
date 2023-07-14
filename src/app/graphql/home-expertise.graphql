@@ -1,0 +1,28 @@
+query HomeExpertise($id:ID!) {
+  page(id: $id) {
+    homeExpertise {
+      expertiseTitle
+      expertiseDescription
+      expertiseSubtitleOne
+      expertiseDescriptionOne
+      expertiseSubtitleTwo
+      expertiseDescriptionTwo
+      expertiseSubtitleThree
+      expertiseDescriptionThree
+      expertiseSubtitleFour
+      expertiseDescriptionFour
+      expertiseImageOne {
+        sourceUrl
+      }
+      expertiseImageTwo {
+        sourceUrl
+      }
+      expertiseImageThree {
+        sourceUrl
+      }
+      expertiseImageFour {
+        sourceUrl
+      }
+    }
+  }
+}

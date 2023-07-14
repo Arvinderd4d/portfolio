@@ -1,0 +1,11 @@
+query HomeContent($id:ID!) {
+	page(id:$id) {
+        home {
+            masterPieceDescription
+            masterPieceTitle
+            masterPieceImage {
+                sourceUrl
+            }
+        }        
+    }
+}

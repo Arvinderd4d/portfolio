@@ -1,0 +1,24 @@
+query HomeServicesContent($id:ID!) {
+	page(id:$id) {
+        homeServices {
+            title
+            subTitle
+            description
+            firstServiceTitle
+            firstServiceDescription
+            secondServiceDescription
+            secondServiceTitle
+            thirdServiceDescription
+            thirdServiceTitle
+            firstServiceIcon {
+                sourceUrl
+            }
+            secondServiceIcon {
+                sourceUrl
+            }
+            thirdServiceIcon {
+                sourceUrl
+            }
+        }        
+    }
+}

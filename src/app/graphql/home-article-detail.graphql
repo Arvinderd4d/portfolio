@@ -1,0 +1,8 @@
+query HomeArticleContent($id:ID!) {
+	page(id:$id) {
+        homeArticleSection {
+            articleTitle
+            articleDescription
+        }        
+    }
+}

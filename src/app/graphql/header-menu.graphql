@@ -1,0 +1,9 @@
+query HeaderMenuItemsPrimary($id:ID!) {
+  menu(id: $id) {
+    menuItems {
+      nodes {
+        label
+      }
+    }
+  }
+}

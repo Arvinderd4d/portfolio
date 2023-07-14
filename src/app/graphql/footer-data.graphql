@@ -1,0 +1,35 @@
+query FooterData($id: ID!) {
+  page(id: $id) {
+    footer {
+      address
+      copyright
+      
+      footerLogo {
+        sourceUrl
+      }
+      headerLogo {
+        sourceUrl
+      }
+      phone     
+      email
+    }
+    socialMedia {
+      facebok
+      facebookIcon {
+        sourceUrl
+      }
+      instagram
+      instagramIcon {
+        sourceUrl
+      }
+      pintrest
+      pintrestIcon {
+        sourceUrl
+      }
+      twitter
+      twitterIcon {
+        sourceUrl
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+query AboutContent($id: ID!) {
+	page(id: $id) {
+        title
+        content
+        aboutUs {
+            title
+            description
+            visionTitle
+            visionDescription
+            missionTitle
+            missionDescription
+            coreValueTitle
+            coreValueDescription
+            visionIcon {
+                sourceUrl
+            }
+            missionIcon {
+                sourceUrl
+            }
+            coreValueIcon {
+                sourceUrl
+            }
+            skillsTitle
+            skillsDescription
+        }
+    }
+}

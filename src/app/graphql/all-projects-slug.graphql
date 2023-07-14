@@ -1,0 +1,18 @@
+query projectSlugs { 
+  projets { 
+    edges {
+      node {
+        slug
+        supports {
+          edges {
+            node {
+              name
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

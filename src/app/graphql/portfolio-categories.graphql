@@ -1,0 +1,18 @@
+query PortfolioCategories {
+	supports {
+		edges {
+			node {
+				slug
+				name
+				id
+				count
+				acfsupport {
+					image {
+						sourceUrl
+					}
+				}
+			}
+		}
+	}
+}
+
