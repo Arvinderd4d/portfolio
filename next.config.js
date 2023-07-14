@@ -13,7 +13,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['i2.wp.com', 'i0.wp.com', 'i1.wp.com','localhost'],
+    domains: ['i2.wp.com', 'i0.wp.com', 'i1.wp.com','localhost', 'digital-portfolio.digital4design.in'],
   },
   experimental: {
     appDir: true,
