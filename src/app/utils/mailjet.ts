@@ -1,14 +1,9 @@
 export class Mailjet {
   name: string;
-
   email: string;
-
   phone: string;
-
   message: string;
-
   referrer: string;
-
   constructor(
     name: string,
     email: string,
@@ -46,12 +41,12 @@ export class Mailjet {
       Messages: [
         {
           From: {
-            Email: 'sandeep.d4d@gmail.com',
+            Email: 'hireme@sandeepkamra.com',
             Name: 'Pascal GAULT',
           },
           To: [
             {
-              Email: 'arvinder.d4d@gmail.com',
+              Email: 'hireme@sandeepkamra.com',
               Name: 'Pascal GAULT',
             },
           ],

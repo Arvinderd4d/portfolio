@@ -15,17 +15,12 @@ type FormData = {
 };
 
 export default function ContactForm({ lg = false }: { lg?: boolean }) {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm<FormData>();
+  const {register, handleSubmit, formState: { errors }, reset} = useForm<FormData>();
   const { state, submit, success } = useFormState();
   const onSubmit = (data: FormData) => {
     submit();
 
-    fetch('/api/hello', {
+    fetch('/api/contact', {
       method: 'POST',
       body: JSON.stringify(data),
       headers: {
@@ -35,15 +30,9 @@ export default function ContactForm({ lg = false }: { lg?: boolean }) {
     })
       .then((r) => r.json())
       .then(() => {
+        console.log('success')
         success();
         reset();
-        fetch('/api/hello-slack', {
-          method: 'POST',
-          body: JSON.stringify(data),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
       });
   };
 

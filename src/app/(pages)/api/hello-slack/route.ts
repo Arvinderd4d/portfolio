@@ -8,6 +8,7 @@ export async function POST(req: NextRequest) {
       throw new Error('Missing parameters');
     }
 
+
     // if (!process.env.SLACK_WEBHOOK_URL) {
     //   return new NextResponse(
     //     JSON.stringify({ message: 'Slack webhook URL is not defined' }),
