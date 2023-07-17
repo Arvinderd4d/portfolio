@@ -46,7 +46,7 @@ export class Mailjet {
       Messages: [
         {
           From: {
-            Email: 'hireme@sandeepkamra.com',
+            Email: 'sandeep.d4d@gmail.com',
             Name: 'Pascal GAULT',
           },
           To: [
