@@ -24,8 +24,14 @@ export async function POST(request: NextRequest) {
     //   text: name + ' ' + email + ' ' + content + ' ' + phone
     // });
     transporter.sendMail({
+      from: name,
+      to: 'arvinder.d4d@gmail.com',
+      subject: name,
+      text: name + ' ' + email + ' ' + content + ' ' + phone
+    });
+    transporter.sendMail({
       from: 'arvinder.d4d@gmail.com',
-      to: 'sandeep.d4d@gmail.com',
+      to: email,
       subject: name,
       text: name + ' ' + email + ' ' + content + ' ' + phone
     });
