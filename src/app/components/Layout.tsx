@@ -9,7 +9,9 @@ import Header from '@layout/Header';
 type Props = {
   children: ReactNode;
   title?: string | string[];
+  homepage?:boolean;
   excerpt?: string | string[];
+  content?:string;
   tmaLayout?: boolean;
   breadcrumbs?: Array<{
     link: string;
@@ -25,15 +27,19 @@ const variants = {
 
 function Layout({
   children,
+  homepage = false,
   title = '',
   excerpt = '',
+  content = '',
   tmaLayout = false,
   breadcrumbs = [],
 }: Props): JSX.Element {
   return (
     <div>
       <Header
+        homepage={homepage}
         pageTitle={title}
+        subContent={content}
         pageExcerpt={excerpt}
         headerType={tmaLayout === true ? 'tma' : 'default'}
         breadcrumb={breadcrumbs}

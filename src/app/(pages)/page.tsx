@@ -22,6 +22,8 @@ import {HomeExpertise} from '@graphql-query/home-expertise.graphql';
 import {HomeServicesContent} from '../graphql/home-services.graphql';
 import { HomeArticleContent } from '../graphql/home-article-detail.graphql';
 import { HomeExpertiseContent, HomePageContent, HomePageServices, HomeArticleType } from '@type/graphql';
+import { HomeHeaderContent } from '../graphql/home-header-detail.graphql';
+import { HomeHeadContent } from '@type/graphql';
 
 export const metadata = {
   title:
@@ -38,14 +40,16 @@ const getExpertise = (id:string):Promise<HomeExpertiseContent>=> fetcher(HomeExp
 const getServices = (slug:string): Promise<HomePageServices> =>
 fetcher(HomeServicesContent, {id:slug});
 const getArticleContent = (id:string):Promise<HomeArticleType> => fetcher(HomeArticleContent, {id:id});
+const getHeaderData = (id:string):Promise<HomeHeadContent> => fetcher(HomeHeaderContent, {id:id})
 
 export default async function Homepage() {
 const {data} = await getData("cG9zdDoxMTM=");
 const {data:{page}} = await getExpertise("cG9zdDoxMTM=");
 const {data:{page:{homeServices}}} = await getServices("cG9zdDoxMTM=");
 const {data:{page:{homeArticleSection}}} = await getArticleContent("cG9zdDoxMTM");
+const {data:{page:{homeHeaderSection}}} = await getHeaderData("cG9zdDoxMTM=");
 return (
-    <Layout>
+    <Layout title={homeHeaderSection.headerTitle} homepage={true} content={homeHeaderSection.headerSubTitle} excerpt={homeHeaderSection.headerContent}>
       
       <div className="container">
         <SectionTitle

@@ -24,7 +24,7 @@ export default async function AboutMe() {
   const {data} = await getData("cG9zdDo3Mg==");
   return (
     // <Layout title="this is the about page">
-     <Layout title={data.page.title}>
+     <Layout title={data.page.title} homepage={false}>
      
       <div className="container mt-4 -mb-20">
         <h2 className="text-white text-3xl">

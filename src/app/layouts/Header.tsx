@@ -8,11 +8,15 @@ import Link from '@component/NoScrollLink';
 import useSticky from '@hook/useSticky';
 import NavPrimary from '@layout/NavPrimary';
 import { HeaderType, PageExcerptType, PageTitleType } from '@type/header';
+// import { fetcher } from '@util/index';
+
 
 const DynamicHeaderTma = dynamic(() => import('@layout/HeaderTma'));
 
 interface Props {
   pageTitle?: PageTitleType;
+  homepage?:boolean,
+  subContent:string,
   breadcrumb: Array<{
     title: string;
     link: string;
@@ -21,13 +25,18 @@ interface Props {
   pageExcerpt?: PageExcerptType;
 }
 
-export default function Header({
-  pageTitle = '',
-  pageExcerpt = '',
-  breadcrumb = [],
-  headerType = 'default',
+export default  function Header(
+  {
+    homepage = false,
+    pageTitle = '',
+    pageExcerpt = '',
+    subContent = '',
+    breadcrumb = [],
+    headerType = 'default',
 }: Props) {
-  const [ref, sticky] = useSticky<HTMLDivElement>();
+    const [ref, sticky] = useSticky<HTMLDivElement>();
+  
+
   if (headerType === 'tma') {
     return <DynamicHeaderTma pageTitle={pageTitle} excerpt={pageExcerpt} />;
   }
@@ -35,7 +44,7 @@ export default function Header({
   return (
     <div className="relative h-auto w-full" ref={ref}>
       <NavPrimary isSticky={sticky} />
-      {pageTitle ? (
+      {homepage == false ? (
         <div className="container z-10 relative mt-3 md:mt-8 md:-mb-8">
           <h1 className="font-bold max-w-4xl tracking-wider text-2xl sm:text-4xl text-white">
             {pageTitle}
@@ -60,10 +69,10 @@ export default function Header({
       ) : (
         <h1 className="container text-center flex flex-col items-center text-white mt-7 mb-6 md:mb-0">
           <span className="text-orange text-6xl md:text-8xl font-bold">
-            Digital4Design
+            {pageTitle}
           </span>
-          <span className="text-3xl md:text-5xl mt-2">D4D</span>
-          <span className="text-xl md:text-2xl mt-2">Freelance developer specializing in the creation of websites</span>
+          <span className="text-3xl md:text-5xl mt-2">{subContent}</span>
+          <span className="text-xl md:text-2xl mt-2">{pageExcerpt}</span>
         </h1>
       )}
 

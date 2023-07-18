@@ -11,6 +11,7 @@ export interface PageHeaderStaticProps {
   props: {
     pageTitle: string | string[];
     breadcrumb: Breadcrumb[];
+    subContent: string;
     headerType?: HeaderType;
     excerpt?: PageExcerptType;
   };

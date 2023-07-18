@@ -1,0 +1,12 @@
+query HomeHeaderContent($id: ID!) {
+  page(id: $id) {
+    homeHeaderSection {
+      headerTitle
+      headerSubTitle
+      headerContent
+      headerBackgroundImage {
+        sourceUrl
+      }
+    }
+  }
+}

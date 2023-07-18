@@ -151,6 +151,21 @@ export interface HomeArticleType{
   }
 }
 
+export interface HomeHeadContent{
+  data:{
+    page:{
+      homeHeaderSection:{
+        headerTitle:string;
+        headerSubTitle:string;
+        headerContent:string;
+        headerBackgroundImage:{
+          sourceUrl:string;
+        }
+      }
+    }
+  }
+}
+
 export interface HeaderMenuContent{
   data:{
     menu: {
@@ -200,7 +215,6 @@ export interface FooterContent {
     }
   }
 }
-
 export interface PolicyData {
   data:{
     page:{

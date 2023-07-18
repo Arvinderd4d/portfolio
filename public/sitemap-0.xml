@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>http://digitalportfolio.digital4design.in/about</loc><lastmod>2023-07-18T04:50:11.662Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/policy</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/contact</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/blog</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms/david-nataf</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms/elbeauty</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications/grade-master</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications/resort-radar</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/terms</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/blog/how-to-hire-the-right-ecommerce-developer</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/blog/why-wordpress-development-is-so-popular</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/blog/why-you-need-wordpress-development-company-for-your-business-website</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://digitalportfolio.digital4design.in/blog/php-web-development-beneficial-for-online-business</loc><lastmod>2023-07-18T04:50:11.663Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/contact</loc><lastmod>2023-07-18T09:58:14.463Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/about</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/terms</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/policy</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/blog</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms/david-nataf</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/cms/elbeauty</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications/grade-master</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/portfolio/web-applications/resort-radar</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/blog/how-to-hire-the-right-ecommerce-developer</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/blog/why-wordpress-development-is-so-popular</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/blog/why-you-need-wordpress-development-company-for-your-business-website</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://digitalportfolio.digital4design.in/blog/php-web-development-beneficial-for-online-business</loc><lastmod>2023-07-18T09:58:14.464Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
